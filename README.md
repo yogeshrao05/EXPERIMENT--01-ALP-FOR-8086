@@ -1,4 +1,4 @@
-# EXPERIMENT--01-ALP-FOR-8086
+# EXPERIMENT-01 ALP FOR 8086
 
 Name : yogesh rao S D
 
@@ -149,6 +149,50 @@ ret
 
 ![div](https://github.com/yogeshrao05/EXPERIMENT--01-ALP-FOR-8086/assets/122008288/68194fdf-77da-4fe2-93ac-eb3e6db5dde3)
 
+## Program for logical  operations
+```
+
+org 100H  
+
+MOV SI,0532H;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H;
+
+OR AX,BX;
+
+MOV [SI],AX;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H;
+
+AND AX,BX; 
+
+MOV [SI+2],AX;
+
+MOV AX,0A32H;
+
+MOV BX,0B13H; 
+
+XOR AX,BX;    
+
+MOV [SI+4],AX;
+
+MOV AX,0A32H;
+
+NOT AX; 
+
+MOV [SI+6],AX;
+
+ret 
+```
+### Output:
+
+
+
+![loc pmc](https://github.com/yogeshrao05/EXPERIMENT--01-ALP-FOR-8086/assets/122008288/37ac9bd5-364c-47c8-ba87-f5e957d56cb6)
 
 
 
