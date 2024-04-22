@@ -1,10 +1,10 @@
-# EXPERIMENT-01 ALP FOR 8086
-
 Name : yogesh rao S D
 
 Roll no: 212222110055
 
 Date of experiment :
+
+# EXPERIMENT-01 ALP FOR 8086
 
 ## Aim:
 To Write and execute ALP on fundamental arithmetic and logical operations
